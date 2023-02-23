@@ -1,0 +1,51 @@
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+}
+
+.logo__content {
+    display: flex;
+    flex-direction: column;
+    padding-left: 14px;
+    width: 222px;
+    height: 51px;
+}
+
+.logo__title {
+    color: #2B292D;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.logo__text {
+    color: rgba(43, 41, 45, 0.6);
+    font-size: 18px;
+    line-height: 25px
+}
+
+@media (max-width: 400px) {
+
+    .logo {
+        width: 200px;
+    }
+    
+    .logo__title {
+        display: flex;
+        width: 180px;
+    }
+
+    .logo__text {
+        font-size: 16px;
+        display: flex;
+        width: 150px;
+        height: auto;
+    }
+}

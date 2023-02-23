@@ -1,0 +1,70 @@
+@import url(font.css);
+@import url(header.css);
+@import url(logo.css);
+@import url(promo.css);
+@import url(benefits.css);
+@import url(attraction.css);
+@import url(audience.css);
+@import url(communication.css);
+@import url(feedback.css);
+@import url(footer.css);
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Work Sans";
+}
+
+.button, .header__button {
+    padding-top: 17px;
+    padding-bottom: 18px;
+    padding-left: 28px;
+    padding-right: 28px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 13px;
+    color: #FFFFFF;
+    background-color: #3040C4;
+    border: 0;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    white-space: nowrap;
+}
+
+.button-white {
+    background-color: #ffffff;
+    color: #3040C4;
+    position: relative;
+    z-index: 1;
+}
+
+.block {
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow: hidden;
+}
+
+.block__content {
+    position: relative;
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+}
+
+@media (max-width: 1024px) {
+    .block__content {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 500px) {
+    .button {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 18px;
+        padding-right: 18px;
+        font-size: 16px;
+    }
+}
