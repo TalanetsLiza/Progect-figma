@@ -1,0 +1,134 @@
+.feedback {
+    background: rgba(244, 245, 247, 1);
+    display: flex;
+    justify-content: center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.feedback__image {
+    height: 296px;
+    width: 268px;
+    margin-top: 72px;
+    margin-bottom: 73px;    
+}
+
+.feedback__box {
+    display: flex;
+    flex-direction: column;
+    width: 555px;
+    margin-left: 121px;
+}
+
+.feedback__title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    color: #2B292D;
+    margin-top: 106px;
+}
+
+.feedback__description {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    color: #2B292D;
+    margin-top: 12px;
+}
+
+.feedback__form {
+    display: flex;
+    flex-direction: row;
+    margin-top: 16px;
+}
+
+.feedback__input {
+    box-sizing: border-box;
+    width: 385px;
+    padding-top: 17px;
+    padding-bottom: 18px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: "Work Sans";
+    border-radius: 2px;
+    background: #FFFFFF;
+    border: 1px solid rgba(43, 41, 45, 0.2);
+    margin-right: 10px;
+}
+
+@media (max-width: 982px) {
+  
+    .feedback__box {
+        padding-bottom: 30px;
+    }
+
+    .feedback__title {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 800px) {
+    
+    .feedback__image {
+        margin-bottom: 20px;    
+    }
+
+    .feedback__title {
+        margin-top: 0;
+    }
+
+    .feedback__box {
+        margin-bottom: 20px;
+        margin-left: 10px;
+    }
+
+    .feedback__title {
+        font-size: 25px;
+    }
+
+    .feedback__description {
+        font-size: 20px;
+        line-height: 28px;
+    }
+}
+
+
+@media (max-width: 640px) {
+    .feedback__input {
+        width: 250px;
+    }
+
+    .feedback__box {
+        width: 400px;
+        margin-left: 10px;
+    }
+    
+}
+
+@media (max-width: 420px) {
+
+    .feedback {
+        padding-bottom: 20px;
+    }
+
+    .feedback__box {
+        width: 300px;
+        margin-left: 0;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    .feedback__title {
+        margin-top: 0;
+
+    }
+
+    .feedback__description {
+        font-size: 18px;
+    }
+
+    .feedback__input {
+        width: 180px;
+    }
+
+    
+}
